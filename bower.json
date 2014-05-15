@@ -8,6 +8,6 @@
   ],
   "dependencies": {
     "knockout.js": "~3.0.0",
-    "moment": "~2.6.0"
+    "jquery": "1.10"
   }
 }
