@@ -42,7 +42,7 @@
 					$(element).attr({
 						'aria-expanded': !!isShown,
 						'aria-hidden': !isShown
-					});
+					}).css({'overflow': isShown ? 'visible' : 'hidden'});
 				});
 		}
 	};
