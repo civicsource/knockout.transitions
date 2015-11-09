@@ -68,7 +68,7 @@
 
 	ko.extenders.transitions = function (target, type) {
 		target.slideUp = function (el) {
-			$(el).slideup(function () { $(el).remove(); });
+			$(el).slideUp(function () { $(el).remove(); });
 		};
 
 		target.slideDown = function (el) {
