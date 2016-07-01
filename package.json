@@ -1,0 +1,22 @@
+{
+  "name": "knockout.transitions",
+  "version": "2.0.0",
+  "description": "Simple knockout bindings to apply jQuery transitions to elements",
+  "main": "knockout.transitions.js",
+  "scripts": {
+    "lint": "eslint . --format=unix"
+  },
+  "author": "CivicSource",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "6.x",
+    "eslint": "2.x",
+    "eslint-plugin-filenames": "1.x"
+  },
+  "dependencies": {
+    "jquery": ">=1.10"
+  },
+  "peerDependencies": {
+    "knockout": "3.x"
+  }
+}
